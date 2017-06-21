@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LuceneDemo" Class="LuceneDemoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ICAN-52\SQLEXPRESS14;Initial Catalog=LuceneDemo;Persist Security Info=True;User ID=sa" SettingsObjectName="LuceneDemo.Properties.Settings" SettingsPropertyName="LuceneDemoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.lucene1" Member="lucene1s">
+    <Type Name="lucene1">
+      <Column Name="Id" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ShortDescription" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="DateCrated" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
